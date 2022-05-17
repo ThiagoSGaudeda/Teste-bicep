@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "appServicePlanSkuName": {
+        "value": "B2"
+      },
+      "appServicePlanTier": {
+        "value": "Basic"
+      },
+      "appServicePlanSize": {
+        "value": "B2"
+      },
+      "appServicePlanFamily": {
+        "value": "B"
+      },
+      "dbmId": {
+        "value": "APP-14678"
+      },
+      "environment": {
+        "value": "dev"
+      },
+      "organization": {
+        "value": "FLCIT"
+      },
+      "storageSkuName": {
+        "value": "Standard_LRS"
+      }
+    }
+  }
